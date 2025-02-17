@@ -1,11 +1,12 @@
 /* eslint-disable react/prop-types */
 
-const ServicesCard = ({ title, description , images}) => {
+const ServicesCard = ({ title, description, images }) => {
   return (
     <div
       className="card    text-light h-100"
       style={{
-        backgroundColor: "#1f2130",
+        backgroundColor: " #2B3972",
+
         borderRadius: "20px",
         direction: "rtl",
       }}
@@ -24,7 +25,7 @@ const ServicesCard = ({ title, description , images}) => {
         />
         <h5
           className="card-title "
-          style={{ fontSize: "12px", marginTop: "80px"  }}
+          style={{ fontSize: "12px", marginTop: "80px" }}
         >
           {title}
         </h5>
@@ -39,10 +40,7 @@ const ServicesCard = ({ title, description , images}) => {
           {description}
         </p>
       </div>
-    
     </div>
-   
-            
   );
 };
 

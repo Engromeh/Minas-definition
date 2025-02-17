@@ -4,10 +4,10 @@ import divider from "../../../Images/Line 4.svg";
 
 const MarketingSection = () => {
   return (
-    <div style={{ backgroundColor: "#151723" }}>
+    <div style={{ backgroundColor: "#03003E" }}>
       <section
         className="container text-light py-5 w-full"
-        style={{ backgroundColor: "#151723" }}
+        style={{ backgroundColor: "#03003E" }}
       >
         <div
           className="row  align-items-center  flex-md-row text-md-end text-center text-md-start marking-section"
@@ -59,7 +59,12 @@ const MarketingSection = () => {
                     جائزة مكتسبة
                   </p>
                 </div>
-                <img src={divider} alt="divider" style={{ height: "50px" }}  className="marketing-divider"/>
+                <img
+                  src={divider}
+                  alt="divider"
+                  style={{ height: "50px" }}
+                  className="marketing-divider"
+                />
                 <div className="text-center">
                   <h4
                     className="fw-bold"
@@ -98,7 +103,12 @@ const MarketingSection = () => {
                     ثقة مكتسبة
                   </p>
                 </div>
-                <img src={divider} alt="divider" style={{ height: "50px" }} className="marketing-divider"/>
+                <img
+                  src={divider}
+                  alt="divider"
+                  style={{ height: "50px" }}
+                  className="marketing-divider"
+                />
                 <div className="text-center">
                   <h4
                     className="fw-bold"

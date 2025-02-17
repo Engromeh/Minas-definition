@@ -1,4 +1,3 @@
-;
 import ServicesCard from "./ServicesShowCard";
 import photo7 from "../../../../Images/image 5.svg";
 // import photo5 from "../../../../Images/image 5.svg";
@@ -12,7 +11,7 @@ import Footer from "../../Footer/Footer";
 const services = [
   {
     id: 1,
-    imges: photo7 ,
+    imges: photo7,
     title: "تنظيم فعاليات و مؤتمرات",
     description:
       "تنظيم وتخطيط الفعاليات والمؤتمرات التي تقوم بها الشركة بطريقة احترافية وصنعة، مما يساعد على تحقيق أهداف الشركة وزيادة التفاعل بين المشاركين من خلال تنظيم الفعالية أو المؤتمر بطريقة تفاعلية.",
@@ -26,14 +25,14 @@ const services = [
   },
   {
     id: 3,
-    imges:photo7,
+    imges: photo7,
     title: "تصميم المواقع الإلكترونية",
     description:
       "بامتلاكك موقعًا جذابًا وعمليًا وسريع الاستجابة يركز على العلامة التجارية يمكن أن يساهم في تحويل الزوار إلى عملاء.",
   },
   {
     id: 4,
-    imges:photo7,
+    imges: photo7,
     title: "UGC",
     description:
       "من خلاله نتيح للعملاء إنشاء ونشر المحتوى المتعلق بالعلامة التجارية أو المنتج، ونوجه إلى زيادة التفاعل بين العملاء وتحليل المحتوى الذي ينتجه العملاء لتحسين تجاربهم وزيادة الثقة وتحقيق أهداف العمل.",
@@ -71,29 +70,42 @@ const services = [
 const ServicesPage = () => {
   return (
     <>
-    <Navbar/>
-    <div className=" py-5 px-3 articleshow-container " style={{ backgroundColor: "#151723"  }}>
-      <div className="container">
-        <div className=" row gy-5 gx-4">
-          {services.map((service) => (
-            <div key={service.id} className="col-12 col-sm-6 col-md-6 col-lg-3">
-              <ServicesCard
+      <Navbar />
+      <div
+        className=" py-5 px-3 articleshow-container "
+        style={{ backgroundColor: "#03003E" }}
+      >
+        <div className="container">
+          <div className=" row gy-5 gx-4">
+            {services.map((service) => (
+              <div
                 key={service.id}
-                description={service.description}
-                title={service.title}
-                images={service.imges}
-              />
-            </div>
-          ))}
+                className="col-12 col-sm-6 col-md-6 col-lg-3"
+              >
+                <ServicesCard
+                  key={service.id}
+                  description={service.description}
+                  title={service.title}
+                  images={service.imges}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div
+          className="m-auto me-md-5 pb-2 ms-md-auto"
+          style={{ width: "fit-content" }}
+        >
+          <button
+            className="btn d-block "
+            style={{ backgroundColor: "#212D5D" }}
+          >
+            استشاره مجانيه{" "}
+            <img src={btnIcon} alt="" style={{ width: "30px" }} />
+          </button>
         </div>
       </div>
-      <div className="m-auto me-md-5 pb-2 ms-md-auto" style={{ width: "fit-content" }}>
-              <button className="btn d-block " style={{ backgroundColor: "#f4cdac" }}>
-                استشاره مجانيه <img src={btnIcon} alt="" style={{ width: "30px" }} />
-              </button>
-            </div>
-    </div>
-    <Footer />
+      <Footer />
     </>
   );
 };

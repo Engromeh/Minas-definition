@@ -3,7 +3,7 @@ import planphoto from "../../../Images/freepik__the-style-is-candid-image-photog
 
 const Sectioneplan = () => {
   return (
-    <div style={{ backgroundColor: "#151723" }}>
+    <div style={{ backgroundColor: "#03003E" }}>
       <div className="container my-5 text-white text-end pricing-planing">
         <div className="row align-items-center">
           <div className="col-md-6">

@@ -13,7 +13,7 @@ const Pricing = () => {
   return (
     <div
       className="pricing-container text-center w-100 py-0 py-md-5"
-      style={{ backgroundColor: "#171a28" }}
+      style={{ backgroundColor: "#040049" }}
     >
       <Container>
         <Row className="align-items-center mb-4 text-white pricing-content mb-4">
@@ -37,14 +37,13 @@ const Pricing = () => {
               key={option}
               variant={active === option ? "warning" : "dark"}
               className={`toggle-btn ${active === option ? "active" : ""}`}
-              style={{ fontWeight: "bold" }}
+              style={{ fontWeight: "bold", fontSize: "24px" }}
               onClick={() => setActive(option)}
             >
               {option}
             </Button>
           ))}
         </div>
-
         <Row className="justify-content-center d-none d-md-flex">
           {[
             {
@@ -85,7 +84,7 @@ const Pricing = () => {
                     {plan.features.map((enabled, idx) => (
                       <li key={idx} className="d-flex align-items-center">
                         <FaCheckCircle
-                          style={{ color: enabled ? "#F4CFAB" : "#D9D9D933" }}
+                          style={{ color: enabled ? "#032E56" : "#D9D9D933" }}
                         />
                         <span
                           className="ms-2"
@@ -135,10 +134,8 @@ const Pricing = () => {
                 <Card
                   className={`pricing-card flex-fill ${
                     plan.title === "مميز" ? "featured" : ""
-                    }`}
-                  style={{
-                  
-                }}
+                  }`}
+                  style={{}}
                 >
                   <Card.Body>
                     <Card.Title className="plan-title">{plan.title}</Card.Title>

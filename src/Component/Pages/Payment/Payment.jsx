@@ -34,7 +34,7 @@ const Payment = () => {
   }, []);
 
   return (
-    <div className="py-3 w-100" style={{ backgroundColor: "#171a28" }}>
+    <div className="py-3 w-100" style={{ backgroundColor: "#040049" }}>
       {isMobile ? (
         <Swiper
           slidesPerView={2}

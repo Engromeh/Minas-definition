@@ -23,16 +23,13 @@ const CompaneyDetailes = () => {
   return (
     <>
       <Navbar />
-      <div
-        className="container "
-        style={{ marginTop: "2%", height: "auto", backgroundColor: "#1f2130" }}
-      >
+      <div className="container " style={{ marginTop: "2%", height: "auto" }}>
         <div className="row g-3 align-items-stretch">
           <div className="col-md-3 d-flex justify-content-center">
             <div
               className="d-flex flex-column align-items-center text-center p-4"
               style={{
-                backgroundColor: "#1f2130",
+                backgroundColor: "#2B3972",
                 borderRadius: "10px",
                 width: "100%",
                 maxWidth: "300px",
@@ -76,7 +73,7 @@ const CompaneyDetailes = () => {
             <div
               className="p-4 text-white"
               style={{
-                backgroundColor: "#1f2130",
+                backgroundColor: "#2B3972",
                 borderRadius: "10px",
                 height: "100%",
               }}
@@ -157,7 +154,7 @@ const CompaneyDetailes = () => {
             </div>
           </div>
         </div>
-      <Slider />
+        <Slider />
       </div>
       <Footer />
     </>

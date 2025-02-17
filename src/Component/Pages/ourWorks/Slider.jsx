@@ -20,9 +20,9 @@ const Slider = () => {
     <div
       className="position-relative p-3 mb-4 mt-4"
       style={{
-        backgroundColor: "#2e2e3a",
+        backgroundColor: "#2B3972",
         borderRadius: "20px",
-        overflow: "hidden", 
+        overflow: "hidden",
         position: "relative",
       }}
     >
@@ -44,7 +44,7 @@ const Slider = () => {
             <div
               className="d-flex justify-content-between align-items-center slide-item"
               style={{
-                backgroundColor: "#202130",
+                backgroundColor: "#1C2752",
                 borderRadius: "12px",
                 padding: "15px",
                 width: "90%",

@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Form, Button, Dropdown } from "react-bootstrap";
-import plan from "../../../Images/Group 168.svg";
+import plan from "../../../Images/pLanblue.svg";
 
 const ContactForm = () => {
   return (
-    <div style={{ backgroundColor: "#151723" }}>
+    <div style={{ backgroundColor: "#040049" }}>
       <Container fluid className="p-4 " style={{ color: "white" }}>
         <Row>
           <Col
@@ -63,13 +63,13 @@ const ContactForm = () => {
               </Form.Group>
 
               <Button
-                className="custom-button w-100 text-black"
+                className="custom-button w-100 text-white"
                 style={{
                   border: "none",
                   direction: "rtl",
                   fontFamily: "Cairo",
                   fontSize: "20px",
-                  color: "#B0B0B0",
+                  color: "white",
                 }}
               >
                 اطلب الخدمة

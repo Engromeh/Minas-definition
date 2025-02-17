@@ -33,7 +33,7 @@ const ServicesDetails = () => {
             <div
               className="d-flex align-items-center justify-content-center rounded p-4 w-100"
               style={{
-                backgroundColor: "#1f2130",
+                backgroundColor: "#2B3972",
                 borderRadius: "10px",
                 height: "100%",
               }}
@@ -50,7 +50,7 @@ const ServicesDetails = () => {
             <div
               className="p-4 text-white"
               style={{
-                backgroundColor: "#1f2130",
+                backgroundColor: "#2B3972",
                 borderRadius: "10px",
                 height: "100%",
               }}
@@ -73,7 +73,10 @@ const ServicesDetails = () => {
           </div>
         </div>
 
-        <div className="mt-4 p-4 rounded" style={{ backgroundColor: "#1f2130" }}>
+        <div
+          className="mt-4 p-4 rounded"
+          style={{ backgroundColor: "#2B3972" }}
+        >
           {projects.length > 0 ? (
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
               {projects.map((project) => (
@@ -81,7 +84,7 @@ const ServicesDetails = () => {
                   <div
                     className="card text-dark p-3 text-center shadow-sm d-flex flex-column align-items-center"
                     style={{
-                      backgroundColor: "#2D2E39",
+                      backgroundColor: "#1C2752",
                       borderRadius: "10px",
                       height: "150px",
                     }}

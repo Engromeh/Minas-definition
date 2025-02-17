@@ -22,7 +22,10 @@ const HeroSection = () => {
 
   return (
     <>
-      <section className="hero text-center py-5 ">
+      <section
+        className="hero text-center py-5 "
+        style={{ backgroundColor: "#03003E" }}
+      >
         <div className="hero-bg-gold"></div>
         <div className="hero-bg-blue"></div>
         <div>
@@ -33,7 +36,7 @@ const HeroSection = () => {
               fontSize: "72px",
             }}
           >
-            شركة الفارس للتسويق الإلكترونى
+            شركة ميناس للتسويق الإلكترونى
           </h1>
           <p
             className="lead text-white"
@@ -53,15 +56,15 @@ const HeroSection = () => {
             <button
               className="customee-btn"
               style={{
-                backgroundColor: "#F4CFAB",
                 borderRadius: "25px",
-
                 textAlign: "center",
                 fontWeight: "bold",
                 width: "150px",
                 height: "56px",
                 fontFamily: "Cairo",
                 fontSize: "31px",
+                border: "none",
+                backgroundImage: "linear-gradient(to bottom, #212D5D, #D9D9D9)",
               }}
             >
               ابدا الان
@@ -173,29 +176,26 @@ const HeroSection = () => {
           <div className="d-md-none mt-2">
             <Swiper
               spaceBetween={20}
-              slidesPerView={"auto"} // Allows partial slides to be visible
-              loop={true} // Enables infinite scrolling
-              centeredSlides={true} // Centers the active slide
+              slidesPerView={"auto"}
+              loop={true}
+              centeredSlides={true}
               pagination={{ clickable: true }}
-              freeMode={true} // Allows smooth movement
+              freeMode={true}
               modules={[Pagination, FreeMode]}
               className="custom-swiper"
             >
-              <SwiperSlide style={{width:"fit-content", margin:"0 5px"}}>
-                
-                  <img
-                    src={group1}
-                    className="card-img-top hero-image"
-                    alt="التسويق الرقمي"
-                    style={{
-                      width: "309px",
-                      display: "block",
-                    
-                    }}
-                  />
-                
+              <SwiperSlide style={{ width: "fit-content", margin: "0 5px" }}>
+                <img
+                  src={group1}
+                  className="card-img-top hero-image"
+                  alt="التسويق الرقمي"
+                  style={{
+                    width: "309px",
+                    display: "block",
+                  }}
+                />
               </SwiperSlide>
-              <SwiperSlide style={{width:"fit-content", margin:"0 5px"}}>
+              <SwiperSlide style={{ width: "fit-content", margin: "0 5px" }}>
                 <img
                   src={group3}
                   className="card-img-top hero-image"
@@ -203,7 +203,7 @@ const HeroSection = () => {
                   style={{ width: "309px", display: "block" }}
                 />
               </SwiperSlide>
-              <SwiperSlide style={{width:"fit-content", margin:"0 5px"}}>
+              <SwiperSlide style={{ width: "fit-content", margin: "0 5px" }}>
                 <img
                   src={group2}
                   className="card-img-top hero-image"

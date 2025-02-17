@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logoe from "../../../Images/minas logo.svg";import fasebook from "../../../Images/bx_bxl-facebook.svg";
+import logoe from "../../../Images/minas logo.svg";
+import fasebook from "../../../Images/bx_bxl-facebook.svg";
 import insta from "../../../Images/bx_bxl-instagram-alt.svg";
 import twater from "../../../Images/akar-icons_twitter-fill.svg";
 import sendd from "../../../Images/carbon_send.svg";
@@ -9,7 +10,7 @@ const Footer = () => {
     <>
       <footer
         className="text-white py-5 px-5 w-100 text-center text-md-start d-none d-md-block"
-        style={{ backgroundColor: "#171a28", padding: "20px" }}
+        style={{ backgroundColor: "#03003E", padding: "20px" }}
       >
         <div className="container-fluid">
           <div className="row text-center text-md-start">
@@ -183,7 +184,10 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer className="footer mt-5 d-md-none">
+      <footer
+        className="footer mt-5 d-md-none"
+        style={{ backgroundColor: "#040049" }}
+      >
         <Container>
           <Row>
             <Col md={4} className="text-light">
@@ -205,7 +209,6 @@ const Footer = () => {
               </p>
             </Col>
 
-            {/* Middle - Links */}
             <div className="d-flex justify-content-between ">
               <div className="text-light">
                 <h6 className="fw-bold">الشركة</h6>
@@ -226,7 +229,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Right - Support & Socials */}
             <Col md={4} className="text-light position-relative">
               <h6 className="fw-bold">الدعم</h6>
               <ul className="list-unstyled">

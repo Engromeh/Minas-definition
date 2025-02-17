@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light "
-      style={{ backgroundColor: "#171a28" }}
+      style={{ backgroundColor: "#040049" }}
     >
       <div className="container-fluid d-flex align-items-center justify-content-between">
         <img src={logoe} className="navbar-brand me-2" alt="logo" />
@@ -29,10 +29,7 @@ const Navbar = () => {
         >
           <ul className="navbar-nav text-center me-auto mb-2 mb-lg-0 gap-5 p-0">
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                to={"/ArticlePagesshow"}
-              >
+              <Link className="nav-link text-white" to={"/ArticlePagesshow"}>
                 المقالات
               </Link>
             </li>
@@ -68,37 +65,22 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                to={"/Ourwork"}
-                
-              >
+              <Link className="nav-link text-white" to={"/Ourwork"}>
                 أعمالنا
               </Link>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link text-white"
-                href="#"
-              >
+              <a className="nav-link text-white" href="#">
                 تواصل معنا
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link text-white"
-                href="#"
-                
-              >
+              <a className="nav-link text-white" href="#">
                 احصل على عرض السعر
               </a>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link text-white"
-                to={"/"}
-                
-              >
+              <Link className="nav-link text-white" to={"/"}>
                 الرئيسية
               </Link>
             </li>
@@ -141,7 +123,6 @@ const Navbar = () => {
                 className="btn w-100 w-lg-auto"
                 style={{
                   color: "#FFFFFF",
-                  backgroundColor: "#151723",
                   border: "2px #F4CFAB solid",
                   borderRadius: "20px",
                   padding: "5px 12px",

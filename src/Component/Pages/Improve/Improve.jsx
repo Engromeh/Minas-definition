@@ -6,7 +6,7 @@ const Improve = () => {
     <>
       <div
         className="container-fluid  text-white py-0 py-md-5 w-100 improve-section "
-        style={{ backgroundColor: "#171a28" }}
+        style={{ backgroundColor: "#040049" }}
       >
         <div className="container">
           <div className="row align-items-center improve-container">

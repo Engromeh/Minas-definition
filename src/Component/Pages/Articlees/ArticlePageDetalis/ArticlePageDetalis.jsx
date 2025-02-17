@@ -14,7 +14,10 @@ const ArticlePageDetalis = () => {
       <Navbar />
       <div className="container container-custom">
         <div className="row mb-3 article-header ml-3">
-          <div className="col-md-5 col-12 article-box article-box-right">
+          <div
+            className="col-md-5 col-12 article-box article-box-right"
+            style={{ backgroundColor: "#2B3972" }}
+          >
             <div className="date-icons">
               <span>2025، يناير 30</span>
               <img
@@ -40,12 +43,15 @@ const ArticlePageDetalis = () => {
               <span>العودة للمقالات</span>
             </div>
           </div>
-          <div className="col-md-6 col-12 article-title">
+          <div
+            className="col-md-6 col-12 article-title"
+            style={{ backgroundColor: "#2B3972" }}
+          >
             <h2>خدمة العملاء والاهتمام بالعميل</h2>
           </div>
         </div>
         <div className="row ml-3">
-          <div className="col-md-7 order-md-2 main-image-container ">
+          <div className="col-md-7 order-md-2 main-image-container  ">
             <img
               src={ph1}
               className="img-fluid main-image rounded"
@@ -86,22 +92,7 @@ const ArticlePageDetalis = () => {
           </div>
         </div>
 
-        <div className="d-flex flex-column-reverse d-md-none text-center">
-          <p className="article-text">
-            قد تمر عليك بعض المشاكل من العميل ويجب التعامل معها بشكل جيد حتى
-            تتجنب بعض المشاكل وتكسبها لما فيه المصلحة بما يتماشى مع أهدافك. يمكن
-            أن يشعر المستهلك بعدم الرضا بغض النظر إن كان منتجك أو خدمتك بشكل
-            رائع، لذلك يكون من المهم جدًا فهم المنتج أو الخدمة بشكل جيد والتصور
-            وتوضيح رؤية العلامة التجارية والقيادة بطريقة احترافية. لذلك تقوم
-            الشركات الناجحة باختيار موظفيها بعناية بحيث يقدمون لمتعاملهم دعمهم
-            واكتساب ثقتهم.
-          </p>
-          <img
-            src={ph1}
-            className="img-fluid main-image rounded"
-            alt="Main Visual"
-          />
-        </div>
+        
       </div>
       <Footer />
     </>

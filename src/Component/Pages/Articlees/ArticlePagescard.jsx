@@ -1,13 +1,13 @@
- import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import penIcon from "../../../Images/Group 188.svg";
- import cleanderIcon from "../../../Images/Group 189.svg";
+import cleanderIcon from "../../../Images/Group 189.svg";
 
-const ArticlePagescard = ({ title, date ,navigateTo }) => {
+const ArticlePagescard = ({ title, date, navigateTo }) => {
   const navigate = useNavigate();
   return (
     <div
       className="card  p-1 pt-2  text-light "
-      style={{ backgroundColor: "#1f2130", borderRadius: "20px"  }} 
+      style={{ backgroundColor: "#2B3972", borderRadius: "20px" }}
       onClick={() => navigate(navigateTo)}
     >
       <div className="card-body">
